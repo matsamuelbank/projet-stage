@@ -1,6 +1,4 @@
 
-
-
 </div> <!-- ferméture div de la class container-->
 
 <div id="jaune"></div>
@@ -30,7 +28,6 @@
             </div>
         </div>
 </nav>
-    <?php wp_footer() // ajoute au theme le footer wordpress?>
-    
+    <?php wp_footer();// ajoute au theme le footer wordpress?>
 </body>
 </html>

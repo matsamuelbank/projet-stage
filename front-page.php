@@ -67,18 +67,18 @@
 
                 <h1>Images terrasse</h1>
                 <div class="galerie">
-                    <a href="<?php echo get_template_directory_uri(); ?>/images/img1-terrasseG.jpg"><img src="<?php echo get_template_directory_uri(); ?>/images/img1-terrasse.jpg" alt="la galerie"></a>
-                    <a href="<?php echo get_template_directory_uri(); ?>/images/img2-terrasseG.jpg"><img src="<?php echo get_template_directory_uri(); ?>/images/img2-terrasse.jpg" alt="la galerie"></a>
-                    <a href="<?php echo get_template_directory_uri(); ?>/images/img3-terrasseG.jpg"><img src="<?php echo get_template_directory_uri(); ?>/images/img3-terrasse.jpg" alt="la galerie"></a>
-                    <a href="<?php echo get_template_directory_uri(); ?>/images/img4-terrasseG.jpg"><img src="<?php echo get_template_directory_uri(); ?>/images/img4-terrasse.jpg" alt="la galerie"></a>
+                    <a href="<?php echo get_template_directory_uri(); ?>/images/img1-terrasseG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img1-terrasse.jpg" alt="la galerie"></a>
+                    <a href="<?php echo get_template_directory_uri(); ?>/images/img2-terrasseG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img2-terrasse.jpg" alt="la galerie"></a>
+                    <a href="<?php echo get_template_directory_uri(); ?>/images/img3-terrasseG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img3-terrasse.jpg" alt="la galerie"></a>
+                    <a href="<?php echo get_template_directory_uri(); ?>/images/img4-terrasseG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img4-terrasse.jpg" alt="la galerie"></a>
                 </div>
 
                 <h1>Images piscine</h1>
                 <div class="galerie">
-                    <a href="<?php echo get_template_directory_uri(); ?>/images/img1-piscineG.jpg"><img src="<?php echo get_template_directory_uri(); ?>/images/img1-piscine.jpg" alt="la galerie"></a>
-                    <a href="<?php echo get_template_directory_uri(); ?>/images/img2-piscineG.jpg"><img src="<?php echo get_template_directory_uri(); ?>/images/img2-piscine.jpg" alt="la galerie"></a>
-                    <a href="<?php echo get_template_directory_uri(); ?>/images/img3-piscineG.jpg"><img src="<?php echo get_template_directory_uri(); ?>/images/img3-piscine.jpg" alt="la galerie"></a>
-                    <a href="<?php echo get_template_directory_uri(); ?>/images/img4-piscineG.jpg"><img src="<?php echo get_template_directory_uri(); ?>/images/img4-piscine.jpg" alt="la galerie"></a>
+                    <a href="<?php echo get_template_directory_uri(); ?>/images/img1-piscineG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img1-piscine.jpg" alt="la galerie"></a>
+                    <a href="<?php echo get_template_directory_uri(); ?>/images/img2-piscineG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img2-piscine.jpg" alt="la galerie"></a>
+                    <a href="<?php echo get_template_directory_uri(); ?>/images/img3-piscineG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img3-piscine.jpg" alt="la galerie"></a>
+                    <a href="<?php echo get_template_directory_uri(); ?>/images/img4-piscineG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img4-piscine.jpg" alt="la galerie"></a>
                 </div>
 
         
