@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+margin: 0 auto;
+max-width: 960px;
+}
+
+.image-container {
+position: relative;
+display: inline-block;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.galerie{
+    margin: 10px 50px;
+}
+.galerie img {
+    width: 250px;
+    height: 200px;
+    padding: 5px;
+}
+
+.galerie img:hover{
+    transform: scale(1.1); /*l'image augmente un peu quand on la survole*/
+}
+
+.presentation-severine{
+    display: flex;
+    align-items: center;
+}
+
+#presentation-img{
+    
+     border-radius: 70% / 100% 100% 100% 100%;
+      
+}
+
+/********************************************/
+form {
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  form h1 {
+    font-size: 20px;
+  }
+  form .separation {
+    width: 80%;
+    height: 1px;
+    background-color: #747cdf;
+  }
+  form .corps-formulaire {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  form .corps-formulaire .groupe {
+    position: relative; /* Pour mettre positionner l’élément dans le flux normal de la page */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  form .corps-formulaire .gauche .groupe input {
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid #c9c9c9;
+    outline-color: #747cdf;
+    border-radius: 5px;
+  }
+ 
+  form .corps-formulaire .droite {
+    margin-left: 40px;
+  }
+  form .corps-formulaire .droite .groupe {
+    height: 100%;
+  }
+  form .corps-formulaire .droite .groupe textarea {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 2px solid #747cdf;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    height: 72%;
+    width: 100%;
+  }
+  form .pied-formulaire button {
+    margin-top: 10px;
+    background-color: #747cdf;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+  form .pied-formulaire button:hover {
+    transform: scale(1.05);
+  }
+
+  
+  @media screen and (max-width: 920px) {
+    form .corps-formulaire .droite {
+      margin-left: 10px;
+    }
+
+    #bleu {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    #imgage, #numero {
+        width: 100%;
+        text-align: center;
+        
+    }
+    #lieux{
+        width: 80%;
+        text-align: center;
+    }
+
+    .presentation-severine{
+        flex-direction: column-reverse;
+    }
+  }
+
+  #jaune {
+    height: 15px;
+    background-color: yellow;
+  }
+  
+  #bleu {
+    background-color: rgb(54, 205, 207);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Ajoute un espace de 20px entre chaque élément */
+    align-items:center;
+    font-size: 16px;
+}
+
+#bleu #lieux{
+    width: 25%;
+}
+
+#bleu #image{
+    width: 30%;
+    
+}
+
+/**********caroussel */
+
+.carousel{
+    height: 600px;
+    perspective: 250px;
+
+}
+
+.carousel .carousel-item{
+    width: 450px;
+    background: #fff;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.img-area{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    border: inset 8px deepskyblue;
+}
+
+.img-area img{
+    width: 100%;
+}
+
+.testi p{
+    color: #262626;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.testi h4{
+    font-size: 20px;
+    margin: 0;
+    color: #000;
+
+}
+.testi h5{
+    font-size: 14px;
+    letter-spacing: 5px;
+    margin: 7px 0;
+}
+
+
+     
+  
