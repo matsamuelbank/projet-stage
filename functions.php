@@ -30,6 +30,7 @@
             true
         );
         wp_enqueue_script('lightbox-script', get_stylesheet_directory_uri() . '/javaScript/lightbox-plus-jquery.min.js', array('jquery'), '1.0', true); // Charge le script de lightbox
+        wp_enqueue_script('custom-js', get_stylesheet_directory_uri() . '/javaScript/custom-script.js', array('jquery'), '1.0', true);
     }
     
     //Cette fonction retourne un tableau de classe CSS appliquées à l’élément <li> de l’élément de menu qui sera utilisé dans la fonction add_filter
@@ -43,6 +44,7 @@
         return $attributs;
     }
 
+    // exécution des scripts lors du chargement de la page 
     add_action('after_setup_theme', 'monthemeAjoutFonctionnalites');
     add_action('wp_enqueue_scripts', 'montheme_register_style');
     add_action('wp_enqueue_scripts', 'montheme_register_script');
