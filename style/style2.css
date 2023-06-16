@@ -165,53 +165,112 @@ form {
 }
 
 /**********caroussel */
-
-.carousel{
-    height: 600px;
-    perspective: 250px;
-
+.container {
+  position: relative; /* Positionne le conteneur comme élément parent pour les éléments de la diapositive */
+  perspective: 1000px; /* Ajoute une perspective pour la transformation 3D des diapositives */
 }
 
-.carousel .carousel-item{
-  width: 450px;
-  background: #fff;
-  padding: 50px;
-  height: auto;
-  text-align: center;
-  border-radius: 15px;
+.container .slide-container .slide {
+  border-radius: 5px; /* Ajoute un arrondi aux coins de la diapositive */
+  background: #fff; /* Définit la couleur de fond de la diapositive en blanc */
+  box-shadow: 0 5px 10px #3337; /* Ajoute une ombre à la diapositive */
+  width: 450px; /* Définit la largeur de la diapositive à 450px */
+  padding: 20px; /* Ajoute un espace intérieur à la diapositive */
+  margin: 10px; /* Ajoute une marge autour de la diapositive */
+  position: relative; /* Permet de positionner la diapositive par rapport au conteneur parent */
+  transform-style: preserve-3d; /* Préserve la transformation 3D de la diapositive */
+  animation: slide .4s linear; /* Ajoute une animation de glissement à la diapositive */
 }
 
-.img-area{
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-  overflow: hidden;
-  border-radius: 50%;
-  border: inset 8px deepskyblue;
+@keyframes slide {
+  0% {
+    transform: rotateX(180deg); /* Définit la rotation de la diapositive lorsqu'elle commence à 180 degrés */
+  }
 }
 
-.img-area img{
-  width: 100%;
+.container .slide-container .slide > * {
+  animation: slideContent .2s linear .4s backwards; /* Ajoute une animation aux éléments enfants de la diapositive */
 }
 
-.testi p{
-  color: #262626;
-  font-size: 18px;
-  line-height: 1.9;
+@keyframes slideContent {
+  0% {
+    opacity: 0; /* Définit l'opacité des éléments enfants de la diapositive à 0 */
+    transform: scale(.5); /* Réduit la taille des éléments enfants de la diapositive à 50% */
+  }
 }
 
-.testi h4{
-  font-size: 20px;
-  margin: 0;
-  color: #000;
-
-}
-.testi h5{
-  font-size: 14px;
-  letter-spacing: 5px;
-  margin: 7px 0;
+.container .slide-container .slide .icon {
+  position: absolute; /* Positionne l'icône de la diapositive en tant qu'élément absolu */
+  top: 10px;
+  right: 15px; /* Positionne l'icône en haut à droite de la diapositive */
+  font-size: 90px; /* Définit la taille de l'icône */
+  color: palevioletred; /* Définit la couleur de l'icône en rouge-violet pâle */
 }
 
+.container .slide-container .slide .user {
+  display: flex; /* Affiche les éléments enfants de l'utilisateur en tant que flexbox */
+  align-items: center; /* Centre les éléments enfants de l'utilisateur verticalement */
+}
 
-     
-  
+.container .slide-container .slide img {
+  height: 100px; /* Définit la hauteur de l'image de l'utilisateur à 100px */
+  width: 100px; /* Définit la largeur de l'image de l'utilisateur à 100px */
+  border-radius: 50px; /* Arrondit les coins de l'image de l'utilisateur */
+  object-fit: cover; /* Ajuste la taille de l'image pour remplir le conteneur */
+  margin-right: 10px; /* Ajoute une marge à droite de l'image de l'utilisateur */
+}
+
+.container .slide-container .slide .user .user-info h3 {
+  color: #333; /* Définit la couleur du titre de l'utilisateur en noir */
+  font-size: 20px; /* Définit la taille du titre de l'utilisateur à 20px */
+}
+
+.container .slide-container .slide .user .user-info .stars i {
+  color: gold; /* Définit la couleur des étoiles en doré */
+  font-size: 15px; /* Définit la taille des étoiles à 15px */
+}
+
+.container .slide-container .slide .text {
+  color: #3498DB; /* Définit la couleur du texte en bleu */
+  font-size: 14px; /* Définit la taille du texte à 14px */
+  padding-top: 15px; /* Ajoute un espace en haut du texte */
+  font-style: italic; /* Applique un style d'écriture en italique au texte */
+}
+
+.container .slide-container {
+  display: none; /* Cache les conteneurs de diapositives par défaut */
+}
+
+.container .slide-container.active {
+  display: block; /* Affiche les conteneurs de diapositives lorsqu'ils sont actifs */
+}
+
+.container #next, .container #prev {
+  position: absolute; /* Positionne les boutons de navigation précédent/suivant en tant qu'éléments absolus */
+  top: 50%; /* Positionne les boutons de navigation verticalement au centre */
+  transform: translateY(-50%); /* Déplace les boutons de navigation de moitié vers le haut */
+  height: 50px; /* Définit la hauteur des boutons de navigation à 50px */
+  width: 50px; /* Définit la largeur des boutons de navigation à 50px */
+  line-height: 50px; /* Centre le contenu des boutons de navigation verticalement */
+  text-align: center; /* Centre le contenu des boutons de navigation horizontalement */
+  font-size: 20px; /* Définit la taille du texte des boutons de navigation à 20px */
+  background: #FFF; /* Définit la couleur de fond des boutons de navigation en blanc */
+  color: #333; /* Définit la couleur du texte des boutons de navigation en noir */
+  cursor: pointer; /* Affiche le curseur en tant que pointeur au survol */
+  border-radius: 50%; /* Arrondit les coins des boutons de navigation */
+  box-shadow: 0 5px 10px #3337; /* Ajoute une ombre aux boutons de navigation */
+}
+
+.container #next {
+  right: 135px; /* Positionne le bouton suivant à 135px de la droite */
+}
+
+.container #prev {
+  left: -70px; /* Positionne le bouton précédent à 70px de la gauche */
+}
+
+.container #next,
+.container #prev {
+  background: #333; /* Définit la couleur de fond des boutons de navigation en gris foncé */
+  color: #fff; /* Définit la couleur du texte des boutons de navigation en blanc */
+}

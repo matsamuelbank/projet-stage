@@ -57,72 +57,99 @@
         <p class="" style="color:#dd12c7;font-size:1.4rem"><strong>Des espaces à leur image pour des moments uniques</strong></p>
 
         <!-- partie des images -->
-                <h1>Images sols</h1>
-                <div class="galerie">
-                    <a href="<?php echo get_template_directory_uri(); ?>/images/img1-solG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img1-sol.jpg" alt="la galerie"></a>
-                    <a href="<?php echo get_template_directory_uri(); ?>/images/img2-solG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img2-sol.jpg" alt="la galerie"></a>
-                    <a href="<?php echo get_template_directory_uri(); ?>/images/img3-solG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img3-sol.jpg" alt="la galerie"></a>
-                    <a href="<?php echo get_template_directory_uri(); ?>/images/img4-solG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img4-sol.jpg" alt="la galerie"></a>
-                </div>
+        <h1>Images sols</h1>
+        <div class="galerie">
+            <a href="<?php echo get_template_directory_uri(); ?>/images/img1-solG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img1-sol.jpg" alt="la galerie"></a>
+            <a href="<?php echo get_template_directory_uri(); ?>/images/img2-solG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img2-sol.jpg" alt="la galerie"></a>
+            <a href="<?php echo get_template_directory_uri(); ?>/images/img3-solG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img3-sol.jpg" alt="la galerie"></a>
+            <a href="<?php echo get_template_directory_uri(); ?>/images/img4-solG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img4-sol.jpg" alt="la galerie"></a>
+        </div>
 
-                <h1>Images terrasse</h1>
-                <div class="galerie">
-                    <a href="<?php echo get_template_directory_uri(); ?>/images/img1-terrasseG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img1-terrasse.jpg" alt="la galerie"></a>
-                    <a href="<?php echo get_template_directory_uri(); ?>/images/img2-terrasseG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img2-terrasse.jpg" alt="la galerie"></a>
-                    <a href="<?php echo get_template_directory_uri(); ?>/images/img3-terrasseG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img3-terrasse.jpg" alt="la galerie"></a>
-                    <a href="<?php echo get_template_directory_uri(); ?>/images/img4-terrasseG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img4-terrasse.jpg" alt="la galerie"></a>
-                </div>
+        <h1>Images terrasse</h1>
+        <div class="galerie">
+            <a href="<?php echo get_template_directory_uri(); ?>/images/img1-terrasseG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img1-terrasse.jpg" alt="la galerie"></a>
+            <a href="<?php echo get_template_directory_uri(); ?>/images/img2-terrasseG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img2-terrasse.jpg" alt="la galerie"></a>
+            <a href="<?php echo get_template_directory_uri(); ?>/images/img3-terrasseG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img3-terrasse.jpg" alt="la galerie"></a>
+            <a href="<?php echo get_template_directory_uri(); ?>/images/img4-terrasseG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img4-terrasse.jpg" alt="la galerie"></a>
+        </div>
 
-                <h1>Images piscine</h1>
-                <div class="galerie">
-                    <a href="<?php echo get_template_directory_uri(); ?>/images/img1-piscineG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img1-piscine.jpg" alt="la galerie"></a>
-                    <a href="<?php echo get_template_directory_uri(); ?>/images/img2-piscineG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img2-piscine.jpg" alt="la galerie"></a>
-                    <a href="<?php echo get_template_directory_uri(); ?>/images/img3-piscineG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img3-piscine.jpg" alt="la galerie"></a>
-                    <a href="<?php echo get_template_directory_uri(); ?>/images/img4-piscineG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img4-piscine.jpg" alt="la galerie"></a>
-                </div>
+        <h1>Images piscine</h1>
+        <div class="galerie">
+            <a href="<?php echo get_template_directory_uri(); ?>/images/img1-piscineG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img1-piscine.jpg" alt="la galerie"></a>
+            <a href="<?php echo get_template_directory_uri(); ?>/images/img2-piscineG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img2-piscine.jpg" alt="la galerie"></a>
+            <a href="<?php echo get_template_directory_uri(); ?>/images/img3-piscineG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img3-piscine.jpg" alt="la galerie"></a>
+            <a href="<?php echo get_template_directory_uri(); ?>/images/img4-piscineG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img4-piscine.jpg" alt="la galerie"></a>
+        </div>
 
-        
-            <p>Que pensent nos clients de leur sol en résine ?</p>
 
-                        
-            <div class="carousel">
-                
-                <a class="carousel-item" href="#">
-                    <div class="testi">
-                        <div class="img-area">
-                            <img src="<?php //echo get_template_directory_uri(); ?>/images/anonymous.jpg" alt="">
+        <p>Que pensent nos clients de leur sol en résine ?</p>
+        <!-- partie carrousel-->
+        <div class="container">
+            <div class="slide-container active">
+                <div class="slide">
+                    <i class="fas fa-quote-right icon"></i>
+                    <div class="user">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/anonymous.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Hervé Charrier</h3>
+                            <div  class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
                         </div>
-                        <p>
-                            <span>Hervé Charrie</span>
-                          Hervé Charrier recommande Deco Noble.
-                        </p>
                     </div>
-                </a>
-
-                <a class="carousel-item" href="#">
-                    <div class="testi">
-                        <div class="img-area">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/anonymous.jpg" alt="">
-                        </div>
-                        <p>
-                            <span>Thierry Muscat</span>
-                            Thierry Muscat recommande Deco Noble.
-                        </p>
-                    </div>
-                </a>
-                
-                <a class="carousel-item" href="#">
-                    <div class="testi">
-                        <div class="img-area">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/anonymous.jpg" alt="">
-                        </div>
-                        <p>
-                            <span>Brice AG</span>
-                            Projet mené au top avec un délai et une qualité tenus. Loïc doit nous haïr pour le dessin…mais il aime relever des défis. Il est très doué. Merci à tous.
-                        </p>
-                    </div>
-                </a>
+                    <p class="text">Hervé Charrier recommande Deco Noble.</p>
+                </div>
             </div>
+
+            <div class="slide-container">
+                <div class="slide">
+                    <i class="fas fa-quote-right icon"></i>
+                    <div class="user">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/anonymous.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Brice AG</h3>
+                            <div  class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <p class="text">Projet mené au top avec un délai et une qualité tenus.
+                    Loïc doit nous haïr pour le dessin…mais il aime relever des défis. Il est très doué. Merci à tous.</p>
+                </div>
+            </div>
+
+            <div class="slide-container">
+                <div class="slide">
+                    <i class="fas fa-quote-right icon"></i>
+                    <div class="user">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/anonymous.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Thierry Muscat</h3>
+                            <div  class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text">Thierry Muscat recommande Deco Noble.</p>
+                </div>
+            </div>
+
+            <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+            <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+        </div>
         <!-- partie des réservations-->
 
         <h2>Un accompagnement personnalisé pour des projets sur-mesure</h2>
