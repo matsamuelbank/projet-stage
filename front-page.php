@@ -90,15 +90,12 @@
                 <a class="carousel-item" href="#">
                     <div class="testi">
                         <div class="img-area">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/anonymous.jpg" alt="">
+                            <img src="<?php //echo get_template_directory_uri(); ?>/images/anonymous.jpg" alt="">
                         </div>
                         <p>
                             <span>Hervé Charrie</span>
                           Hervé Charrier recommande Deco Noble.
                         </p>
-                        <h4>Jessica Jones</h4>
-                        <h5>Web Designer</h5>
-                        
                     </div>
                 </a>
 
@@ -111,13 +108,9 @@
                             <span>Thierry Muscat</span>
                             Thierry Muscat recommande Deco Noble.
                         </p>
-                        <h4>Jessica Jones</h4>
-                        <h5>Web Designer</h5>
-                        
                     </div>
                 </a>
-
-
+                
                 <a class="carousel-item" href="#">
                     <div class="testi">
                         <div class="img-area">
@@ -127,9 +120,6 @@
                             <span>Brice AG</span>
                             Projet mené au top avec un délai et une qualité tenus. Loïc doit nous haïr pour le dessin…mais il aime relever des défis. Il est très doué. Merci à tous.
                         </p>
-                        <h4>Jessica Jones</h4>
-                        <h5>Web Designer</h5>
-                        
                     </div>
                 </a>
             </div>

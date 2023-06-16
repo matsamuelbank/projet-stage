@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #container {
@@ -14,44 +14,44 @@ display: inline-block;
 }
 
 .content-wrapper {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .galerie{
-    margin: 10px 50px;
+  margin: 10px 50px;
 }
 .galerie img {
-    width: 250px;
-    height: 200px;
-    padding: 5px;
+  width: 250px;
+  height: 200px;
+  padding: 5px;
 }
 
 .galerie img:hover{
-    transform: scale(1.1); /*l'image augmente un peu quand on la survole*/
+  transform: scale(1.1); /*l'image augmente un peu quand on la survole*/
 }
 
 .presentation-severine{
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 #presentation-img{
     
-     border-radius: 70% / 100% 100% 100% 100%;
+  border-radius: 70% / 100% 100% 100% 100%;
       
 }
 
 /********************************************/
 form {
-    padding: 30px;
-    background-color: white;
-    border-radius: 10px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
   }
   form h1 {
     font-size: 20px;
@@ -173,43 +173,43 @@ form {
 }
 
 .carousel .carousel-item{
-    width: 450px;
-    background: #fff;
-    padding: 50px;
-    height: auto;
-    text-align: center;
-    border-radius: 15px;
+  width: 450px;
+  background: #fff;
+  padding: 50px;
+  height: auto;
+  text-align: center;
+  border-radius: 15px;
 }
 
 .img-area{
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: 50%;
-    border: inset 8px deepskyblue;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+  border: inset 8px deepskyblue;
 }
 
 .img-area img{
-    width: 100%;
+  width: 100%;
 }
 
 .testi p{
-    color: #262626;
-    font-size: 18px;
-    line-height: 1.9;
+  color: #262626;
+  font-size: 18px;
+  line-height: 1.9;
 }
 
 .testi h4{
-    font-size: 20px;
-    margin: 0;
-    color: #000;
+  font-size: 20px;
+  margin: 0;
+  color: #000;
 
 }
 .testi h5{
-    font-size: 14px;
-    letter-spacing: 5px;
-    margin: 7px 0;
+  font-size: 14px;
+  letter-spacing: 5px;
+  margin: 7px 0;
 }
 
 
