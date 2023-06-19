@@ -1,17 +1,11 @@
 <?php get_header() ?>
 <div class="image-container">
   <img src="<?php echo get_template_directory_uri(); ?>/images/deconoble-image-accueil.jpg" alt="Description de l'image" width="100%">
-  <div class="content-wrapper">
-    <p>Texte à côté de l'image</p>
-  </div>
 </div>
 
 
 <section id="section1">
-        
     <div id="accueil">
-        
-
         <h2>Des terrasses en résine aux plages de piscines</h2>
                         
         <p>Chez Terrasse Résine by DÉCONOBLE, nous réalisons des projets autour des sols en résine et en granulat de marbre : terrasses, plages de piscines, cours et allées, création d'espaces extérieurs et intérieurs…</p>
@@ -20,34 +14,17 @@
 
         <br><br>
 
-        <p>Les avantages de la résine et du granulat de marbre</p>
+        <p style="text-align: center;">Les avantages de la résine et du granulat de marbre : </p>
         
-
-        <div class="flamentR">
-            <style>
-                .flamentR{
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: center;
-                    vertical-align: bottom;
-                    
-                }
-                .flamentD1, .flamentD2{
-                    display: flex;
-                    flex-direction: column;
-                }
-            </style>
-            <div id="flamentD2">
-                <p class="flamentR"><img src="<?php echo get_template_directory_uri(); ?>/images/flamand-rose.png" alt="logo" style="width: 80px";> Personnalisable et sur-mesure</p>
-                <p class="flamentR"><img src="<?php echo get_template_directory_uri(); ?>/images/flamand-rose.png" alt="logo" style="width: 80px";>Couleur unie ou incrustation de forme et motif</p>
-            </div>
-
-            <div id="flamentD1">
-                <p class="flamentR"><img src="<?php echo get_template_directory_uri(); ?>/images/flamand-rose.png" alt="logo" style="width: 80px";>De nombreux coloris</p>
-                <p class="flamentR"><img src="<?php echo get_template_directory_uri(); ?>/images/flamand-rose.png" alt="logo" style="width: 80px";>Revêtement drainant à base de résine polyuréthane stable aux UV et de granulats de marbre</p>
+        <div id="containerF">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/flamand-rose.png" alt="logo";>
+            <div id="containerFlament">
+                <p class="flamentR"> Personnalisable et sur-mesure</p>
+                <p class="flamentR">Couleur unie ou incrustation de forme et motif</p>
+                <p class="flamentR">De nombreux coloris</p>
+                <p class="flamentR">Revêtement drainant à base de résine polyuréthane stable aux UV et de granulats de marbre</p>
             </div>
         </div>
-
     </div>
 </section>
 
@@ -57,7 +34,7 @@
         <p class="" style="color:#dd12c7;font-size:1.4rem"><strong>Des espaces à leur image pour des moments uniques</strong></p>
 
         <!-- partie des images -->
-        <h1>Images sols</h1>
+        <h3>Images sols</h3>
         <div class="galerie">
             <a href="<?php echo get_template_directory_uri(); ?>/images/img1-solG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img1-sol.jpg" alt="la galerie"></a>
             <a href="<?php echo get_template_directory_uri(); ?>/images/img2-solG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img2-sol.jpg" alt="la galerie"></a>
@@ -65,7 +42,7 @@
             <a href="<?php echo get_template_directory_uri(); ?>/images/img4-solG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img4-sol.jpg" alt="la galerie"></a>
         </div>
 
-        <h1>Images terrasse</h1>
+        <h3>Images terrasse</h3>
         <div class="galerie">
             <a href="<?php echo get_template_directory_uri(); ?>/images/img1-terrasseG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img1-terrasse.jpg" alt="la galerie"></a>
             <a href="<?php echo get_template_directory_uri(); ?>/images/img2-terrasseG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img2-terrasse.jpg" alt="la galerie"></a>
@@ -73,7 +50,7 @@
             <a href="<?php echo get_template_directory_uri(); ?>/images/img4-terrasseG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img4-terrasse.jpg" alt="la galerie"></a>
         </div>
 
-        <h1>Images piscine</h1>
+        <h3>Images piscine</h3>
         <div class="galerie">
             <a href="<?php echo get_template_directory_uri(); ?>/images/img1-piscineG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img1-piscine.jpg" alt="la galerie"></a>
             <a href="<?php echo get_template_directory_uri(); ?>/images/img2-piscineG.jpg" data-lightbox="mygallery"><img src="<?php echo get_template_directory_uri(); ?>/images/img2-piscine.jpg" alt="la galerie"></a>

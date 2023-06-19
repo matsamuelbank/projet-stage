@@ -1,26 +1,6 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-
-#container {
-margin: 0 auto;
-max-width: 960px;
-}
-
 .image-container {
 position: relative;
 display: inline-block;
-}
-
-.content-wrapper {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
 }
 
 .galerie{
@@ -47,7 +27,7 @@ display: inline-block;
       
 }
 
-/********************************************/
+/****************formulaire**********************/
 form {
   padding: 30px;
   background-color: white;
@@ -81,7 +61,7 @@ form {
   }
  
   form .corps-formulaire .droite {
-    margin-left: 40px;
+    margin-left: 60px;
   }
   form .corps-formulaire .droite .groupe {
     height: 100%;
@@ -114,54 +94,26 @@ form {
   }
 
   
-  @media screen and (max-width: 920px) {
-    form .corps-formulaire .droite {
-      margin-left: 10px;
-    }
-
-    #bleu {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-    
-    #imgage, #numero {
-        width: 100%;
-        text-align: center;
-        
-    }
-    #lieux{
-        width: 80%;
-        text-align: center;
-    }
-
-    .presentation-severine{
-        flex-direction: column-reverse;
-    }
-  }
 
   #jaune {
     height: 15px;
     background-color: yellow;
   }
   
-  #bleu {
+  #bleu{
     background-color: rgb(54, 205, 207);
     color: white;
     display: flex;
     justify-content: space-between;
-    gap: 20px; /* Ajoute un espace de 20px entre chaque élément */
-    align-items:center;
+    align-items:normal;
     font-size: 16px;
-}
+    padding-top: 20px;
 
-#bleu #lieux{
-    width: 25%;
-}
-
-#bleu #image{
-    width: 30%;
     
+  }
+
+.col{
+  flex-wrap: wrap;
 }
 
 /**********caroussel */
@@ -273,4 +225,92 @@ form {
 .container #prev {
   background: #333; /* Définit la couleur de fond des boutons de navigation en gris foncé */
   color: #fff; /* Définit la couleur du texte des boutons de navigation en blanc */
+}
+
+
+/***********************image flament************************/
+
+#containerF{
+  position: relative;
+  display: flex;
+
+}
+#containerFlament{
+  border-radius: 5px; /* Ajoute un arrondi aux coins de la diapositive */
+  background: #fff; /* Définit la couleur de fond de la diapositive en blanc */
+  box-shadow: 0 5px 10px #3337; /* Ajoute une ombre à la diapositive */
+  width: 50%; /* Définit la largeur de la diapositive à 450px */
+  padding: 20px; /* Ajoute un espace intérieur à la diapositive */
+  margin: 10px; /* Ajoute une marge autour de la diapositive */
+  position: relative; /* Permet de positionner la diapositive par rapport au conteneur parent */
+  background-color: rgb(255, 192, 226);
+}
+
+#containerFlament .flamentR{
+  text-align: center;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 760px) {
+
+  /*partie forumalaire */
+  form .corps-formulaire .droite .groupe{
+    margin-left: 4px;
+  }
+
+  /*footer*/
+  #bleu {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  #bleu #image{
+    width:auto; /* L'image occupe au maximum la largeur de son contenant */
+    height: auto; /* La hauteur de l'image s'ajuste proportionnellement */
+  }
+  
+  #lieux{
+    text-align: center;
+    width: 100%;
+  }
+
+  /*présentation severine*/
+  .presentation-severine{
+    flex-direction: column-reverse;
+  }
+
+  /*image de flament rose*/
+  #containerF{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  #containerFlament{
+    width: 100%;
+  }
+
+  #containerF img {
+    display: none;
+  }
+
+  /*partie carrousel*/
+  .container .slide-container .slide {
+    width: 100%;
+    padding: 5px; /* Ajoute un espace intérieur à la diapositive */
+    margin: 3px; /* Ajoute une marge autour de la diapositive */
+  }
+
+  
+  .container #next {
+    right: -47px; /* Positionne le bouton suivant à 135px de la droite */
+  }
+
+  .container #prev {
+    left: -40px; /* Positionne le bouton précédent à 70px de la gauche */
+  }
+
 }

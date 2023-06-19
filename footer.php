@@ -3,12 +3,12 @@
 
 <div id="jaune"></div>
 <div id="bleu">
-    <p id="lieux">
-    Pour votre projet de terrasse en résine, retrouvez-nous à :
-    Lyon - Chambéry - Genas - Meyzieu - Chassieu - Colombier-Saugnieu - Miribel - Jonage - Bourgoin-Jailleu - Maubec - Décines - Saint-Cyr-au-Mont-d'Or - Écully
+    <p id="lieux" class="col">
+        Pour votre projet de terrasse en résine, retrouvez-nous à :
+        Lyon - Chambéry - Genas - Meyzieu - Chassieu - Colombier-Saugnieu - Miribel - Jonage - Bourgoin-Jailleu - Maubec - Décines - Saint-Cyr-au-Mont-d'Or - Écully
     </p>
-    <p id="imgage"><img src=" <?php echo get_template_directory_uri(); ?>/images/deconoble_logo.png" alt=""></p>
-    <p id="numero">Séverine Blanc : 06 20 43 05 06</p>
+    <p id="imgage" class="col"><img src=" <?php echo get_template_directory_uri(); ?>/images/deconoble_logo.png" alt=""></p>
+    <p id="numero" class="col">Séverine Blanc : <br> 06 20 43 05 06</p>
 </div>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
         <div class="container-fluid">
@@ -23,7 +23,7 @@
                         'container' => false,
                         'menu_class'=> 'navbar-nav me-auto mb-2 mb-lg-0' //Classe CSS à utiliser pour l’élément ul qui forme le menu.(ici j'ai pris celle de bootstrap)
                         //Faire défaut.'menu'
-                    ])
+                    ]);
                 ?>
             </div>
         </div>
