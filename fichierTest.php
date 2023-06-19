@@ -1,7 +1,8 @@
 <div class="container">
 
 <div class="image-container">
-  <img src="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/deconoble-image-accueil.jpg" alt="Description de l'image" width="100%">
+  <img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/deconoble-image-accueil.jpg" alt="Description de l'image" width="100%">
+
 </div>
 <section id="section1">
     <div id="accueil">
@@ -11,12 +12,10 @@
 
         <p>Que vous soyez p<strong>articuliers ou</strong> <strong>professionnels, v</strong>ous bénéficiez d'un <strong>accompagnement personnalisé. Nous trouvons</strong> les solutions les plus adaptées à votre environnement et vos espaces. Tous vos projets sont créés <strong>sur mesure </strong>et <strong>personnalisables </strong>selon vos besoins et surtout, vos envies !</p>
 
-        <br><br>
-
         <p style="text-align: center;">Les avantages de la résine et du granulat de marbre : </p>
         
         <div id="containerF">
-            <img src="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/flamand-rose.png" alt="logo";>
+            <img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/flamand-rose.png" alt="logo";>
             <div id="containerFlament">
                 <p class="flamentR"> Personnalisable et sur-mesure</p>
                 <p class="flamentR">Couleur unie ou incrustation de forme et motif</p>
@@ -35,26 +34,26 @@
         <!-- partie des images -->
         <h3>Images sols</h3>
         <div class="galerie">
-            <a href="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-solG.jpg" <img src="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/" alt="img1-sol.jpg"></a>
-            <a href="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-solG.jpg" data-lightbox="mygallery"><img src="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-sol.jpg" alt="img-solG"></a>
-            <a href="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-solG.jpg" data-lightbox="mygallery"><img src="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-sol.jpg" alt="img3-solG"></a>
-            <a href="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-solG.jpg" data-lightbox="mygallery"><img src="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-sol.jpg" alt="img4-solG"></a>
+            <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-solG.jpg" ><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-sol" alt="img1-sol.jpg"></a>
+            <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-solG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-sol.jpg" alt="img-solG"></a>
+            <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-solG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-sol.jpg" alt="img3-solG"></a>
+            <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-solG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-sol.jpg" alt="img4-solG"></a>
         </div>
         
 <h3>Images terrasse</h3>
 <div class="galerie">
-    <a href="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-terrasseG.jpg" data-lightbox="mygallery"><img src="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-terrasse.jpg" alt="img1-terrasseG"></a>
-    <a href="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-terrasseG.jpg" data-lightbox="mygallery"><img src="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-terrasse.jpg" alt="img2-terrasseG"></a>
-    <a href="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-terrasseG.jpg" data-lightbox="mygallery"><img src="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-terrasse.jpg" alt="img3-terrasseG"></a>
-    <a href="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-terrasseG.jpg" data-lightbox="mygallery"><img src="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-terrasse.jpg" alt="img4-terrasseG"></a>
+    <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-terrasseG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-terrasse.jpg" alt="img1-terrasseG"></a>
+    <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-terrasseG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-terrasse.jpg" alt="img2-terrasseG"></a>
+    <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-terrasseG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-terrasse.jpg" alt="img3-terrasseG"></a>
+    <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-terrasseG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-terrasse.jpg" alt="img4-terrasseG"></a>
 </div>
 
 <h3>Images piscine</h3>
 <div class="galerie">
-    <a href="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-piscineG.jpg" data-lightbox="mygallery"><img src="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-piscine.jpg" alt="img1-piscineG"></a>
-    <a href="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-piscineG.jpg" data-lightbox="mygallery"><img src="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-piscine.jpg" alt="img2-piscineG"></a>
-    <a href="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-piscineG.jpg" data-lightbox="mygallery"><img src="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-piscine.jpg" alt="img3-piscineG"></a>
-    <a href="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-piscineG.jpg" data-lightbox="mygallery"><img src="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-piscine.jpg" alt="img4-piscineG"></a>
+    <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-piscineG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-piscine.jpg" alt="img1-piscineG"></a>
+    <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-piscineG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-piscine.jpg" alt="img2-piscineG"></a>
+    <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-piscineG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-piscine.jpg" alt="img3-piscineG"></a>
+    <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-piscineG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-piscine.jpg" alt="img4-piscineG"></a>
 </div>
 
 
@@ -65,7 +64,7 @@
                 <div class="slide">
                     <i class="fas fa-quote-right icon"></i>
                     <div class="user">
-                        <img src="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/anonymous.jpg" alt="">
+                        <img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/anonymous.jpg" alt="">
                         <div class="user-info">
                             <h3>Hervé Charrier</h3>
                             <div  class="stars">
@@ -85,7 +84,7 @@
                 <div class="slide">
                     <i class="fas fa-quote-right icon"></i>
                     <div class="user">
-                        <img src="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/anonymous.jpg" alt="">
+                        <img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/anonymous.jpg" alt="">
                         <div class="user-info">
                             <h3>Brice AG</h3>
                             <div  class="stars">
@@ -107,7 +106,7 @@
                 <div class="slide">
                     <i class="fas fa-quote-right icon"></i>
                     <div class="user">
-                        <img src="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/anonymous.jpg" alt="">
+                        <img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/anonymous.jpg" alt="">
                         <div class="user-info">
                             <h3>Thierry Muscat</h3>
                             <div  class="stars">
@@ -134,7 +133,7 @@
                 Bonjour, je suis Séverine de <span class="">Terrasse Résine</span> by <small>DÉCONOBLE</small>.<br>
                 Je vous accompagne et vous <b>conseille</b> dans la conception de votre <b>terrasse</b>, de votre <b>plage de piscine</b> ou de votre <b>sol en résine</b> et en <b>granulat de marbre</b>. Nous prenons le temps de définir ensemble les <b>caractéristiques techniques</b>, les <b>coloris</b> et le <b>design</b>. Mon <b>intérêt</b> pour la <b>décoration</b> et l'aménagement d'espace me permet d'apporter ma touche déco et <b>féminine</b> à votre projet, pour qu'il vous corresponde et vous plaise dans la durée. Je m'investis dans chaque projet à vos côtés afin qu'il soit pensé pour <b>vos futurs moments de vie</b> et de partage !
             </p>
-            <img id="presentation-img" src="localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/severine.jpg" alt="">
+            <img id="presentation-img" src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/severine.jpg" alt="">
             
         </div>
         
