@@ -1,34 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="C:/wamp64/www/projetStageWordpress/wp-content/themes/theme1_samuel/style/style2.css">
-    <link rel="stylesheet" href="C:/wamp64/www/projetStageWordpress/wp-content/themes/theme1_samuel/style/lightbox.min.css">
-    
-</head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!--contenu nav bar avant en php-->
-        </div>
-    </div>
-</nav>
 <div class="container">
 
-
-
 <div class="image-container">
-  <img src="" alt="Description de l'image" width="100%">
+  <img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/deconoble-image-accueil.jpg" alt="Description de l'image" width="100%">
+
 </div>
-
-
 <section id="section1">
     <div id="accueil">
         <h2>Des terrasses en résine aux plages de piscines</h2>
@@ -37,12 +12,10 @@
 
         <p>Que vous soyez p<strong>articuliers ou</strong> <strong>professionnels, v</strong>ous bénéficiez d'un <strong>accompagnement personnalisé. Nous trouvons</strong> les solutions les plus adaptées à votre environnement et vos espaces. Tous vos projets sont créés <strong>sur mesure </strong>et <strong>personnalisables </strong>selon vos besoins et surtout, vos envies !</p>
 
-        <br><br>
-
         <p style="text-align: center;">Les avantages de la résine et du granulat de marbre : </p>
         
         <div id="containerF">
-            <img src="" alt="logo";>
+            <img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/flamand-rose.png" alt="logo";>
             <div id="containerFlament">
                 <p class="flamentR"> Personnalisable et sur-mesure</p>
                 <p class="flamentR">Couleur unie ou incrustation de forme et motif</p>
@@ -61,17 +34,27 @@
         <!-- partie des images -->
         <h3>Images sols</h3>
         <div class="galerie">
-             <!--image-->
+            <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-solG.jpg" ><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-sol" alt="img1-sol.jpg"></a>
+            <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-solG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-sol.jpg" alt="img-solG"></a>
+            <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-solG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-sol.jpg" alt="img3-solG"></a>
+            <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-solG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-sol.jpg" alt="img4-solG"></a>
         </div>
+        
+<h3>Images terrasse</h3>
+<div class="galerie">
+    <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-terrasseG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-terrasse.jpg" alt="img1-terrasseG"></a>
+    <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-terrasseG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-terrasse.jpg" alt="img2-terrasseG"></a>
+    <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-terrasseG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-terrasse.jpg" alt="img3-terrasseG"></a>
+    <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-terrasseG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-terrasse.jpg" alt="img4-terrasseG"></a>
+</div>
 
-        <h3>Images terrasse</h3>
-        <div class="galerie">
-            <!--image-->
-        </div>
-
-        <h3>Images piscine</h3>
-            <!--image-->
-        </div>
+<h3>Images piscine</h3>
+<div class="galerie">
+    <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-piscineG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-piscine.jpg" alt="img1-piscineG"></a>
+    <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-piscineG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-piscine.jpg" alt="img2-piscineG"></a>
+    <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-piscineG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-piscine.jpg" alt="img3-piscineG"></a>
+    <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-piscineG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-piscine.jpg" alt="img4-piscineG"></a>
+</div>
 
 
         <p>Que pensent nos clients de leur sol en résine ?</p>
@@ -81,7 +64,7 @@
                 <div class="slide">
                     <i class="fas fa-quote-right icon"></i>
                     <div class="user">
-                        <img src="" alt="">
+                        <img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/anonymous.jpg" alt="">
                         <div class="user-info">
                             <h3>Hervé Charrier</h3>
                             <div  class="stars">
@@ -101,7 +84,7 @@
                 <div class="slide">
                     <i class="fas fa-quote-right icon"></i>
                     <div class="user">
-                        <img src="" alt="">
+                        <img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/anonymous.jpg" alt="">
                         <div class="user-info">
                             <h3>Brice AG</h3>
                             <div  class="stars">
@@ -123,7 +106,7 @@
                 <div class="slide">
                     <i class="fas fa-quote-right icon"></i>
                     <div class="user">
-                        <img src="" alt="">
+                        <img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/anonymous.jpg" alt="">
                         <div class="user-info">
                             <h3>Thierry Muscat</h3>
                             <div  class="stars">
@@ -150,7 +133,7 @@
                 Bonjour, je suis Séverine de <span class="">Terrasse Résine</span> by <small>DÉCONOBLE</small>.<br>
                 Je vous accompagne et vous <b>conseille</b> dans la conception de votre <b>terrasse</b>, de votre <b>plage de piscine</b> ou de votre <b>sol en résine</b> et en <b>granulat de marbre</b>. Nous prenons le temps de définir ensemble les <b>caractéristiques techniques</b>, les <b>coloris</b> et le <b>design</b>. Mon <b>intérêt</b> pour la <b>décoration</b> et l'aménagement d'espace me permet d'apporter ma touche déco et <b>féminine</b> à votre projet, pour qu'il vous corresponde et vous plaise dans la durée. Je m'investis dans chaque projet à vos côtés afin qu'il soit pensé pour <b>vos futurs moments de vie</b> et de partage !
             </p>
-            <img id="presentation-img" src="" alt="">
+            <img id="presentation-img" src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/severine.jpg" alt="">
             
         </div>
         
@@ -199,39 +182,10 @@
                     </div>
                 </div>
             </div>
-
             <div class="pied-formulaire" align="center">
                 <button>Envoyer le message</button>
             </div>
         </form>
-        
         <p>Chez Terrasse Résine by Déconoble, nous vous accompagnons dans vos projets pour sublimer votre habitat et créer des espaces à votre image.</p>
     </div>
 </section>
-
-
-<!-- Footer-->
-
-</div> <!-- ferméture div de la class container-->
-
-<div id="jaune"></div>
-<div id="bleu">
-    <p id="lieux" class="col">
-        Pour votre projet de terrasse en résine, retrouvez-nous à :
-        Lyon - Chambéry - Genas - Meyzieu - Chassieu - Colombier-Saugnieu - Miribel - Jonage - Bourgoin-Jailleu - Maubec - Décines - Saint-Cyr-au-Mont-d'Or - Écully
-    </p>
-    <p id="imgage" class="col"><img src="" alt=""></p>
-    <p id="numero" class="col">Séverine Blanc : <br> 06 20 43 05 06</p>
-</div>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <!--contenu nav bar avant en php-->
-            </div>
-        </div>
-</nav>
-</body>
-</html>
