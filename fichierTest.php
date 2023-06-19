@@ -189,3 +189,4 @@
         <p>Chez Terrasse Résine by Déconoble, nous vous accompagnons dans vos projets pour sublimer votre habitat et créer des espaces à votre image.</p>
     </div>
 </section>
+
