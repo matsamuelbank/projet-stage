@@ -7,7 +7,8 @@
     <?php wp_head() //ajoute au theme l'entete wordpress ?>
 
 </head>
-<body>
+<body <?php body_class(); ?>>
+    <?php wp_body_open(); ?>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><?php  bloginfo('name') // permet de rajouter le nom du site ?></a>

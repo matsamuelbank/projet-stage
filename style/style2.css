@@ -132,6 +132,8 @@ form {
   position: relative; /* Permet de positionner la diapositive par rapport au conteneur parent */
   transform-style: preserve-3d; /* Préserve la transformation 3D de la diapositive */
   animation: slide .4s linear; /* Ajoute une animation de glissement à la diapositive */
+  left: 100px;
+  right: 100px;
 }
 
 @keyframes slide {
@@ -214,11 +216,11 @@ form {
 }
 
 .container #next {
-  right: 135px; /* Positionne le bouton suivant à 135px de la droite */
+  right: 48.5%; /* Positionne le bouton suivant à 135px de la droite */
 }
 
 .container #prev {
-  left: -70px; /* Positionne le bouton précédent à 70px de la gauche */
+  left: 40px; /* Positionne le bouton précédent à 70px de la gauche */
 }
 
 .container #next,
@@ -302,8 +304,10 @@ form {
     width: 100%;
     padding: 5px; /* Ajoute un espace intérieur à la diapositive */
     margin: 3px; /* Ajoute une marge autour de la diapositive */
+    position: relative;
+    left:0;
+    right:0;
   }
-
   
   .container #next {
     right: -47px; /* Positionne le bouton suivant à 135px de la droite */
@@ -313,4 +317,8 @@ form {
     left: -40px; /* Positionne le bouton précédent à 70px de la gauche */
   }
 
+  .container .slide-container .slide .icon {
+    top: 30px;
+    font-size: 30px; /* Définit la taille de l'icône */
+  }
 }
