@@ -29,24 +29,30 @@
             <h2>Besoin d'inspiration ? Découvrez nos réalisations de sols, de terrasses et de plages de piscine</h2>
             <p class="" style="color:#dd12c7;font-size:1.4rem"><strong>Des espaces à leur image pour des moments uniques</strong></p>
 
-            <!-- partie des images -->
-            <h3>Images sols</h3>
-            <div class="galerie">
-                <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-solG.jpg" ><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-sol" alt="img1-sol.jpg"></a>
-                <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-solG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-sol.jpg" alt="img-solG"></a>
-                <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-solG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-sol.jpg" alt="img3-solG"></a>
-                <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-solG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-sol.jpg" alt="img4-solG"></a>
-            </div>
+            <div id="container-galerie">
+    <div class="img-sol">
+        <h3>Images sols</h3>
+        <div class="galerie">
+        <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-solG.jpg" data-lightbox="gallery" data-title="Image 1">
+            <img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-sol.jpg" alt="img1-sol.jpg">
+        </a>
+        <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-solG.jpg" data-lightbox="gallery" data-title="Image 2"></a>
+        <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-solG.jpg" data-lightbox="gallery" data-title="Image 3"></a>
+        <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-solG.jpg" data-lightbox="gallery" data-title="Image 4"></a>
         </div>
-            
+    </div>
+
+    <div class="img-terrasse">
         <h3>Images terrasse</h3>
         <div class="galerie">
-            <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-terrasseG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-terrasse.jpg" alt="img1-terrasseG"></a>
-            <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-terrasseG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-terrasse.jpg" alt="img2-terrasseG"></a>
-            <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-terrasseG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-terrasse.jpg" alt="img3-terrasseG"></a>
-            <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-terrasseG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-terrasse.jpg" alt="img4-terrasseG"></a>
+        <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-terrasseG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-terrasse.jpg" alt="img1-terrasseG"></a>
+        <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-terrasseG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img2-terrasse.jpg" alt="img2-terrasseG"></a>
+        <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-terrasseG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-terrasse.jpg" alt="img3-terrasseG"></a>
+        <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-terrasseG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-terrasse.jpg" alt="img4-terrasseG"></a>
         </div>
+    </div>
 
+    <div class="img-piscine">
         <h3>Images piscine</h3>
         <div class="galerie">
             <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-piscineG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img1-piscine.jpg" alt="img1-piscineG"></a>
@@ -54,6 +60,8 @@
             <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-piscineG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img3-piscine.jpg" alt="img3-piscineG"></a>
             <a href="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-piscineG.jpg" data-lightbox="mygallery"><img src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/img4-piscine.jpg" alt="img4-piscineG"></a>
         </div>
+    </div>
+</div>
 
         <p>Que pensent nos clients de leur sol en résine ?</p>
             <!-- partie carrousel-->
@@ -132,52 +140,14 @@
             <img id="presentation-img" src="http://localhost/projetStageWordpress/wp-content/themes/theme1_samuel/images/severine.jpg" alt="">
         </div>
     </section>
-
+</br></br>
     <section id="section3">
         <div id="contact">
             <h2>Vous avez un projet ? Terrasses, sols, allées, cours ; Prenons rendez-vous!</h2>
             <p>Ensemble, nous concevons votre projet d'un point de vue technique et esthétique. Nous nous déplaçons et intervenons partout en Rhône-Alpes et Région PACA. Laissez-moi simplement vos coordonnées ou décrivez votre projet et je vous rappellerai !</p>
 
             <!-- Partie du formulaire -->
-            <form method="POST" action="front-page.php">
-                <h1>Contactez-nous</h1>
-                <div class="separation"></div>
-                <div class="corps-formulaire">
-                    <div class="gauche">
-                        <div class="groupe">
-                            <label>Objet </label>
-                            <input type="text" autocomplete="off" />
-                        </div>
-                        <div class="groupe">
-                            <label>Votre Nom</label>
-                            <input type="text" autocomplete="off" />
-                        </div>
-                        <div class="groupe">
-                            <label>Votre Prénom</label>
-                            <input type="text" autocomplete="off" />
-                        </div>
-                        <div class="groupe">
-                            <label>Votre adresse e-mail</label>
-                            <input type="text" autocomplete="off" />
-                        </div>
-                        <div class="groupe">
-                            <label>Votre téléphone</label>
-                            <input type="tel" autocomplete="off" />
-                        </div>
-                        
-                    </div>
-
-                    <div class="droite">
-                        <div class="groupe">
-                            <label>Message</label>
-                            <textarea placeholder="Saisissez ici..."></textarea>
-                        </div>
-                    </div>
-                </div>
-                <div class="pied-formulaire" align="center">
-                    <button>Envoyer le message</button>
-                </div>
-            </form>
+            
             <p>Chez Terrasse Résine by Déconoble, nous vous accompagnons dans vos projets pour sublimer votre habitat et créer des espaces à votre image.</p>
         </div>
     </section>
