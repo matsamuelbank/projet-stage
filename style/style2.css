@@ -3,8 +3,17 @@ position: relative;
 display: inline-block;
 }
 
+/*la galerie*/
+
+#container-galerie{
+  display: flex;
+  justify-content: space-between;
+}
 .galerie{
-  margin: 10px 50px;
+  /*margin: 10px 50px;*/
+}
+.img-sol{
+  /*align-items: center;*/
 }
 .galerie img {
   width: 250px;
@@ -16,6 +25,11 @@ display: inline-block;
   transform: scale(1.1); /*l'image augmente un peu quand on la survole*/
 }
 
+.galerie a:not(:first-child) {
+  display: none; /*cache les autres images dans la page d'accueil*/
+}
+
+/*présentation severine*/
 .presentation-severine{
   display: flex;
   align-items: center;
@@ -23,7 +37,10 @@ display: inline-block;
 
 #presentation-img{
     
-  border-radius: 70% / 100% 100% 100% 100%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
       
 }
 
@@ -37,7 +54,7 @@ form {
     font-size: 20px;
   }
   form .separation {
-    width: 80%;
+    width: auto;
     height: 1px;
     background-color: #747cdf;
   }
@@ -61,7 +78,7 @@ form {
   }
  
   form .corps-formulaire .droite {
-    margin-left: 60px;
+    margin-left: 10px ;
   }
   form .corps-formulaire .droite .groupe {
     height: 100%;
@@ -256,9 +273,18 @@ form {
 
 @media screen and (max-width: 760px) {
 
+
+  /*partie gallerie*/
+  #container-galerie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
   /*partie forumalaire */
-  form .corps-formulaire .droite .groupe{
-    margin-left: 4px;
+
+  form .separation {
+    width: auto;
   }
 
   /*footer*/
