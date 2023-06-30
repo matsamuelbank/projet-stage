@@ -1,6 +1,32 @@
-.image-container {
-position: relative;
-display: inline-block;
+.image-container figure img{
+  width: 100%;
+}
+
+/***********************image flament************************/
+
+#containerF{
+  position: relative;
+  display: flex;
+
+}
+#containerFlament{
+  border-radius: 5px; /* Ajoute un arrondi aux coins de la diapositive */
+  background: #fff; /* Définit la couleur de fond de la diapositive en blanc */
+  box-shadow: 0 5px 10px #3337; /* Ajoute une ombre à la diapositive */
+  width: 50%; /* Définit la largeur de la diapositive à 450px */
+  padding: 20px; /* Ajoute un espace intérieur à la diapositive */
+  margin: 10px; /* Ajoute une marge autour de la diapositive */
+  position: relative; /* Permet de positionner la diapositive par rapport au conteneur parent */
+  background-color: rgb(255, 192, 226);
+}
+
+#containerFlament .flamentR{
+  text-align: center;
+  font-weight: bold;
+}
+
+figcaption{
+  display: none;
 }
 
 /*la galerie*/
@@ -9,12 +35,7 @@ display: inline-block;
   display: flex;
   justify-content: space-between;
 }
-.galerie{
-  /*margin: 10px 50px;*/
-}
-.img-sol{
-  /*align-items: center;*/
-}
+
 .galerie img {
   width: 250px;
   height: 200px;
@@ -35,19 +56,17 @@ display: inline-block;
   align-items: center;
 }
 
-#presentation-img{
-    
-  width: 200px;
+#presentation-img figure img{
+  width: 700px;
   height: 200px;
   object-fit: cover;
-  border-radius: 50%;
-      
+  border-radius: 50%;  
 }
 
 /****************formulaire**********************/
 form {
   padding: 30px;
-  background-color: white;
+  /*background-color: white;*/
   border-radius: 10px;
   }
   form h1 {
@@ -222,129 +241,174 @@ form {
   transform: translateY(-50%); /* Déplace les boutons de navigation de moitié vers le haut */
   height: 50px; /* Définit la hauteur des boutons de navigation à 50px */
   width: 50px; /* Définit la largeur des boutons de navigation à 50px */
-  line-height: 50px; /* Centre le contenu des boutons de navigation verticalement */
-  text-align: center; /* Centre le contenu des boutons de navigation horizontalement */
   font-size: 20px; /* Définit la taille du texte des boutons de navigation à 20px */
-  background: #FFF; /* Définit la couleur de fond des boutons de navigation en blanc */
-  color: #333; /* Définit la couleur du texte des boutons de navigation en noir */
   cursor: pointer; /* Affiche le curseur en tant que pointeur au survol */
-  border-radius: 50%; /* Arrondit les coins des boutons de navigation */
-  box-shadow: 0 5px 10px #3337; /* Ajoute une ombre aux boutons de navigation */
 }
 
 .container #next {
-  right: 48.5%; /* Positionne le bouton suivant à 135px de la droite */
+  right: 47.5%; /* Positionne le bouton suivant à 135px de la droite */
 }
 
 .container #prev {
-  left: 40px; /* Positionne le bouton précédent à 70px de la gauche */
-}
-
-.container #next,
-.container #prev {
-  background: #333; /* Définit la couleur de fond des boutons de navigation en gris foncé */
-  color: #fff; /* Définit la couleur du texte des boutons de navigation en blanc */
+  left: 70px; /* Positionne le bouton précédent à 70px de la gauche */
 }
 
 
-/***********************image flament************************/
+/*Gestion des  couleur arrière du site */
 
-#containerF{
+#section1{
   position: relative;
-  display: flex;
-
-}
-#containerFlament{
-  border-radius: 5px; /* Ajoute un arrondi aux coins de la diapositive */
-  background: #fff; /* Définit la couleur de fond de la diapositive en blanc */
-  box-shadow: 0 5px 10px #3337; /* Ajoute une ombre à la diapositive */
-  width: 50%; /* Définit la largeur de la diapositive à 450px */
-  padding: 20px; /* Ajoute un espace intérieur à la diapositive */
-  margin: 10px; /* Ajoute une marge autour de la diapositive */
-  position: relative; /* Permet de positionner la diapositive par rapport au conteneur parent */
-  background-color: rgb(255, 192, 226);
+  overflow: hidden;
 }
 
-#containerFlament .flamentR{
-  text-align: center;
-  font-weight: bold;
+#style-back1{
+  width: 100rem;
+  height: 50rem;
+  background-color: rgba(0, 128, 115, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  border-radius: 50%;
+  transform: skewX(-50deg) rotate(-70deg);
+  transform-origin: bottom left;
+  word-wrap: break-word;
+}
+
+#style-back2{
+  width: 80rem;
+  height: 60rem;
+  /*background-color: rgba(119, 128, 0, 0.5);*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  border-radius: 5%;
+  transform: skewX(-45deg) rotate(-45deg);
+  transform-origin: bottom left;
+}
+
+#style-back3{
+  width: 100rem;
+  height: 50rem;
+  background-color: rgba(47, 128, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  border-radius: 5%;
+  /*transform: skewX(-45deg) rotate(-45deg);
+  transform-origin: bottom left;*/
 }
 
 
-@media screen and (max-width: 760px) {
+#section2{
+  position: relative;
+  overflow: hidden;
+
+}
 
 
-  /*partie gallerie*/
-  #container-galerie{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-  /*partie forumalaire */
+#section3{
+  position: relative;
+  overflow: hidden;
+}
 
-  form .separation {
-    width: auto;
-  }
+/********Partie du esponsive *********/
 
-  /*footer*/
-  #bleu {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-
-  #bleu #image{
-    width:auto; /* L'image occupe au maximum la largeur de son contenant */
-    height: auto; /* La hauteur de l'image s'ajuste proportionnellement */
-  }
+  @media screen and (max-width: 991px) {
   
-  #lieux{
-    text-align: center;
-    width: 100%;
-  }
-
-  /*présentation severine*/
-  .presentation-severine{
-    flex-direction: column-reverse;
-  }
-
-  /*image de flament rose*/
-  #containerF{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-  }
-
-  #containerFlament{
-    width: 100%;
-  }
-
-  #containerF img {
-    display: none;
-  }
-
-  /*partie carrousel*/
-  .container .slide-container .slide {
-    width: 100%;
-    padding: 5px; /* Ajoute un espace intérieur à la diapositive */
-    margin: 3px; /* Ajoute une marge autour de la diapositive */
-    position: relative;
-    left:0;
-    right:0;
-  }
+    /*partie gallerie*/
+    #container-galerie{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    /*partie forumalaire */
+    
+    form .separation {
+      width: auto;
+    }
+    
+    /*footer*/
+    #bleu {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    
+    #bleu #image{
+      width:auto; /* L'image occupe au maximum la largeur de son contenant */
+      height: auto; /* La hauteur de l'image s'ajuste proportionnellement */
+    }
+    
+    #lieux{
+      text-align: center;
+      width: 100%;
+    }
+    
+    /*présentation severine*/
+    .presentation-severine{
+      flex-direction: column-reverse;
+    }
+    
+    #presentation-img figure img{
+      
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+    
+    /*image de flament rose*/
+    #containerF{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+    }
+    
+    #containerFlament{
+      width: 100%;
+    }
+    
+    #containerF img {
+      display: none;
+    }
+    
+    /*partie carrousel*/
+    .container .slide-container .slide {
+      width: 100%;
+      padding: 5px; /* Ajoute un espace intérieur à la diapositive */
+      margin: 3px; /* Ajoute une marge autour de la diapositive */
+      position: relative;
+      left:0;
+      right:0;
+    }
+    
+      
+    .container #next {
+      right: -48px; /* Positionne le bouton suivant à 135px de la droite */
+    }
   
-  .container #next {
-    right: -47px; /* Positionne le bouton suivant à 135px de la droite */
+    .container #prev {
+      left: -2px; /* Positionne le bouton précédent à 70px de la gauche */
+    }
+    
+    .container .slide-container .slide .icon {
+      top: 30px;
+      font-size: 30px; /* Définit la taille de l'icône */
+    }
+    }
+
+  @media screen and (min-width: 992px) and (max-width: 1200px){
+    .container #next {
+      right: 250px; /*Positionne le bouton suivant à 250px de la droite*/
+    }
   }
 
-  .container #prev {
-    left: -40px; /* Positionne le bouton précédent à 70px de la gauche */
+  @media screen and (min-width: 1200px) and (max-width: 1399px){
+    .container #next {
+      right: 39%; /*Positionne le bouton suivant à 250px de la droite*/
+    }
   }
-
-  .container .slide-container .slide .icon {
-    top: 30px;
-    font-size: 30px; /* Définit la taille de l'icône */
-  }
-}
